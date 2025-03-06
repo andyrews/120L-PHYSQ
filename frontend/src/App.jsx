@@ -11,6 +11,7 @@ import ScheduleView from "./ScheduleView";
 import LogIn from "./LogIn";
 import SignUp1 from "./SignUp1";
 import SignUp2 from "./SignUp2";
+import Account from "./Account";
 
 function HomePage() {
   return (
@@ -197,6 +198,7 @@ function Layout() {
           <Route path="/LogIn" element={<LogIn />} />
           <Route path="/SignUp1" element={<SignUp1 />} />
           <Route path="/SignUp2" element={<SignUp2 />} />
+          <Route path="/Account" element={<Account />} />
         </Routes>
    
 </div>
