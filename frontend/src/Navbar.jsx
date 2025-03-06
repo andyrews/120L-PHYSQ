@@ -62,7 +62,7 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end">
-        <Link className="btn btn-circle bg-white text-black border-none hover:bg-gray-200" to="/LogIn"></Link>
+        <Link className="btn btn-circle bg-white text-black border-none hover:bg-gray-200" to="/Account"></Link>
       </div>
     </nav>
   );
